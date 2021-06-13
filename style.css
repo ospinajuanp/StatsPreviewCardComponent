@@ -6,12 +6,56 @@
 *{
     font-family: 'Inter', sans-serif;
     font-size: 15px;
-    background-color: hsl(233, 47%, 7%);
     color: #fff;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    padding: 19vh 5vh;
+}
+img{
+    width: 100%;
+    height: 60vh;
 }
 .accentuate{
     color: hsl(277, 64%, 61%);
 }
 .card-container{
+    min-width: 810px;
     background-color: hsl(244, 38%, 16%);
+    display: grid;
+    border: 5px solid #000;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr;
+    
+}
+.card-container__left{
+    border: 1px solid #fff;
+    padding: 9vh 5vh;
+}
+.card-container__right {
+    background-color: #d89;
+    border: 1px solid #fff;
+}
+
+.card-container__left-stat{
+    display: grid;    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.card-container__left-tittle, .accentuate{
+    font-size: 25px;
+}
+
+.card-contriner__left-content{
+    margin: 7vh 0vh;
+    color: #aaa;
+}
+.card-container__left-stat-value{
+    font-size: 20px;
+}
+.card-container__left-stat-focus{
+    font-size: 10px;
+    color: #aaa;
 }
