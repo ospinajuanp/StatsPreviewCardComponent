@@ -1,0 +1,17 @@
+/*CONFIGURATION OF frontendmentor.io*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*MY CODE*/
+*{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    background-color: hsl(233, 47%, 7%);
+    color: #fff;
+}
+.accentuate{
+    color: hsl(277, 64%, 61%);
+}
+.card-container{
+    background-color: hsl(244, 38%, 16%);
+}
